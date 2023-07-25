@@ -1,0 +1,53 @@
+html {
+    scroll-snap-type: y mandatory;
+  }
+  
+  .App {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    /* background-color: rgb(26, 25, 25); */
+    color: #fff;
+  }
+  
+  .insta-logo {
+    width: 20%;
+    max-width: 200px;
+  }
+  
+  .video-container {
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 20px;
+    background-color: white;
+    overflow: scroll;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none;
+    
+  }
+  .container{
+    display: flex;
+  }
+  
+  /* for chrome and opera */
+  .video-container::-webkit-scrollbar {
+    display: none;
+  }
+  .div2{
+  /* background-color: white; */
+  color: black;
+  /* margin-left: 15px; */
+  }
+  .divh1{
+    /* color: white; */
+  }
+  .videos{
+    display: flex;
+    justify-content: space-between;
+  }
+  .videos,video{
+    border-radius: 20px;
+  }
+  
